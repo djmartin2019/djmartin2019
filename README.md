@@ -1,106 +1,71 @@
-# 👋 Hey, I'm David
+# Hey, I'm David
 
-I build practical, production-minded systems that bridge the gap between ideas and real-world applications.
+I spend most of my time turning vague requirements into systems that hold up in production: APIs people rely on, infra that doesn’t surprise you at 2am, and tooling that teams actually adopt.
 
-Most of my work lives at the intersection of cloud architecture, backend systems, and developer experience — with a focus on building tools that _actually get used_, not just prototypes that look good in demos.
-
----
-
-## 🚀 What I'm Focused On
-
-- Designing cloud-native systems using AWS (CloudFront, Lambda, S3)
-- Building scalable backend services and APIs
-- Creating developer-friendly tools and workflows
-- Turning messy, real-world problems into clean, repeatable systems
+My sweet spot is cloud and backends (AWS, APIs, data), but I still enjoy shipping UI when it’s the right layer to solve the problem.
 
 ---
 
-## 🛠️ Tech Stack
+## What I'm working on lately
 
-**Languages**
-
-- Python
-- TypeScript / JavaScript
-- SQL
-
-**Backend & Systems**
-
-- FastAPI
-- Node.js
-- PostgreSQL
-- Docker
-
-**Cloud & Infrastructure**
-
-- AWS (CloudFront, Lambda, S3)
-- Terraform
-- Cloudflare
-
-**Frontend**
-
-- React
-- Next.js
-- Tailwind CSS
+- Cloud-native patterns on AWS (CloudFront, Lambda, S3, and the glue between them)
+- Backend services and APIs that stay understandable as they grow
+- Developer workflows: fewer manual steps, clearer paths from commit to deploy
+- Problems that look messy on paper and turn into something repeatable
 
 ---
 
-## 📦 Featured Projects
+## Tools I reach for
 
-### 🔧 Rendorix
+**Languages:** Python · TypeScript / JavaScript · SQL
 
-An AWS-based image optimization pipeline designed as a lightweight alternative to platforms like Cloudinary.
+**Backend:** FastAPI · Node.js · PostgreSQL · Docker
 
-- Signed URL system using HMAC for secure transformations
-- CloudFront-based delivery for caching and performance
-- Built with Terraform for reproducible infrastructure
+**Cloud & infra:** AWS · Terraform · Cloudflare
 
----
-
-### 🗺️ Foodly Map
-
-A social discovery app focused on sharing and organizing places through trusted networks.
-
-- Built with React + Supabase + Mapbox
-- Focused on personal maps instead of global reviews
-- Designed for real-world usability and iteration
+**Frontend:** React · Tailwind CSS
 
 ---
 
-### 🖥️ VPS Lab
+## Featured projects
 
-A self-hosted environment for experimenting with infrastructure and deployment patterns.
+### Rendorix
 
-- Dockerized multi-service architecture
-- Apache reverse proxy with subdomain routing
-- CI/CD workflows evolving via GitHub + SSH
+Image optimization on AWS, meant as a lighter-weight alternative to heavy SaaS pipelines.
 
----
+- Signed URLs + HMAC for safe transformations
+- CloudFront in front for caching and delivery
+- Terraform so the stack is reproducible, not tribal knowledge
 
-## 🧠 How I Think
+### Foodly Map
 
-I care less about hype and more about whether something works under real conditions.
+A social app for discovering and saving places through people you trust, not anonymous star ratings.
 
-- Can it scale?
-- Can someone else understand it?
-- Can it be maintained without chaos?
+- React, Supabase, Mapbox
+- Personal maps instead of one-size-fits-all reviews
+- Built to iterate from real usage
 
-If the answer is no, it’s not done yet.
+### VPS Lab
 
----
-
-## 📈 Where I'm Headed
-
-I'm actively working toward a Solutions Architect role, focusing on:
-
-- Cloud architecture design
-- System reliability and performance
-- Bridging technical systems with real business needs
+A home lab for breaking things on purpose: multi-service Docker setups, reverse proxy routing, and CI/CD wired through GitHub and SSH.
 
 ---
 
-## 📫 Connect
+## How I judge "done"
 
-- Portfolio: https://djm-tech.dev
-- GitHub: https://github.com/
+I’m less interested in novelty than in whether it survives contact with reality.
 
-If you're building something interesting or need help turning an idea into a real system, feel free to reach out.
+- Will it behave when load or data grows?
+- Can the next person (including future me) reason about it?
+- Can you change it without a full rewrite?
+
+If those are shaky, there’s more work to do.
+
+---
+
+## Connect
+
+- Site: https://djm-tech.dev
+- GitHub: https://github.com/djmartin2019
+
+If you’re wrestling with architecture, reliability, or getting from sketch to something shippable, I’m happy to compare notes.
