@@ -17,13 +17,9 @@ My sweet spot is cloud and backends (AWS, APIs, data), but I still enjoy shippin
 
 ## Tools I reach for
 
-**Languages:** Python · TypeScript / JavaScript · SQL
+Most days it’s Python or TypeScript on the backend, React when there’s UI to ship, and AWS with Terraform when things need to stay predictable in prod. SQL usually means PostgreSQL in my projects.
 
-**Backend:** FastAPI · Node.js · PostgreSQL · Docker
-
-**Cloud & infra:** AWS · Terraform · Cloudflare
-
-**Frontend:** React · Tailwind CSS
+![Python, TypeScript, JavaScript, FastAPI, Node.js, PostgreSQL, Docker, AWS, Terraform, Cloudflare, React, Tailwind CSS](https://skillicons.dev/icons?i=python,ts,js,fastapi,nodejs,postgres,docker,aws,terraform,cloudflare,react,tailwind&perline=6)
 
 ---
 
