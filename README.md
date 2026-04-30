@@ -1,67 +1,59 @@
-# Hey, I'm David
+# 👋 Hey, I'm David
 
-I spend most of my time turning vague requirements into systems that hold up in production: APIs people rely on, infra that doesn’t surprise you at 2am, and tooling that teams actually adopt.
-
-My sweet spot is cloud and backends (AWS, APIs, data), but I still enjoy shipping UI when it’s the right layer to solve the problem.
+I build things that have to work in production: solid APIs, boring (in a good way) infra, and tooling people actually use. Most of that is cloud and backends; I still reach for UI when that’s the fastest path to the goal.
 
 ---
 
-## What I'm working on lately
+## 🎯 What I’m up to
 
-- Cloud-native patterns on AWS (CloudFront, Lambda, S3, and the glue between them)
-- Backend services and APIs that stay understandable as they grow
-- Developer workflows: fewer manual steps, clearer paths from commit to deploy
-- Problems that look messy on paper and turn into something repeatable
+- **Cloud** on AWS: Lambdas, S3, CloudFront, and the wiring in between
+- **APIs & services** that don’t turn into a mystery box as they grow
+- **Ship smaller, more often** … fewer manual steps from commit to deploy
+- **Messy real-world problems** into something you can run twice
 
 ---
 
-## Tools I reach for
+## 🧰 Stack
 
-Most days it’s Python or TypeScript on the backend, React when there’s UI to ship, and AWS with Terraform when things need to stay predictable in prod. SQL usually means PostgreSQL in my projects.
+Python & TypeScript for services, React when there’s a front door, PostgreSQL for data, AWS + Terraform when it has to stay predictable in prod.
 
 ![Python, TypeScript, JavaScript, FastAPI, Node.js, PostgreSQL, Docker, AWS, Terraform, Cloudflare, React, Tailwind CSS](https://skillicons.dev/icons?i=python,ts,js,fastapi,nodejs,postgres,docker,aws,terraform,cloudflare,react,tailwind&perline=6)
 
 ---
 
-## Featured projects
+## ✨ Featured projects
 
-### Rendorix
+### 🖼️ Rendorix
 
-Image optimization on AWS, meant as a lighter-weight alternative to heavy SaaS pipelines.
+Image pipeline on AWS, a lighter alternative to huge SaaS image platforms.
 
-- Signed URLs + HMAC for safe transformations
-- CloudFront in front for caching and delivery
-- Terraform so the stack is reproducible, not tribal knowledge
+- Signed URLs + HMAC · CloudFront out front · Terraform for reproducible infra
 
-### Foodly Map
+### 🗺️ Foodly Map
 
-A social app for discovering and saving places through people you trust, not anonymous star ratings.
+Find and save places through people you trust, not anonymous five-star noise.
 
-- React, Supabase, Mapbox
-- Personal maps instead of one-size-fits-all reviews
-- Built to iterate from real usage
+- React · Supabase · Mapbox · built to learn from real use
 
-### VPS Lab
+### 🧪 VPS Lab
 
-A home lab for breaking things on purpose: multi-service Docker setups, reverse proxy routing, and CI/CD wired through GitHub and SSH.
+Home lab for breaking things on purpose: Docker, reverse proxy routing, GitHub + SSH in the loop.
 
 ---
 
-## How I judge "done"
+## ✅ My “done” bar
 
-I’m less interested in novelty than in whether it survives contact with reality.
+- Scales or fails in a way you can **see** and **fix**
+- The next person (or you in six months) can **read** it
+- You can **change** it without a from-scratch rewrite
 
-- Will it behave when load or data grows?
-- Can the next person (including future me) reason about it?
-- Can you change it without a full rewrite?
-
-If those are shaky, there’s more work to do.
+If not, it’s not done.
 
 ---
 
-## Connect
+## 📫 Connect
 
-- Site: https://djm-tech.dev
-- GitHub: https://github.com/djmartin2019
+- 🌐 [djm-tech.dev](https://djm-tech.dev)
+- 💻 [github.com/djmartin2019](https://github.com/djmartin2019)
 
-If you’re wrestling with architecture, reliability, or getting from sketch to something shippable, I’m happy to compare notes.
+Building something weird, or need a second pair of eyes on architecture or reliability? Happy to compare notes.
